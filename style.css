@@ -1,0 +1,352 @@
+body {
+    margin: 0 20px;
+    height: 1000px;
+}
+/*partie style de navigation*/
+header {
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    background-color: white;
+    padding-bottom: 30px;
+}
+.experience h1{
+    color: #00B39B;
+}
+
+nav ul {
+    display: inline-flex;
+    margin: 10px;
+    padding-right: 200px;
+}
+
+nav ul li {
+    list-style: none;
+}
+.apropos a{
+color: #00CCB1;
+}
+.departements a{
+    color: #AEACAB;
+}
+.departements a:hover{
+    color: #00B39B;
+}
+.carriere a{
+    color: #AEACAB;
+}
+.carriere a:hover{
+    color: #00B39B;
+}
+nav ul li a {
+    text-decoration: none;
+    margin: 20px;
+}
+
+nav div {
+    padding-left: 250px;
+}
+/*style du main*/
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.PaMe {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+.PaMe p{
+color: #78747D;
+letter-spacing: 1px;
+}
+
+.patients {
+    width: 21%;
+    margin-right: 190px;
+}
+
+.medecin {
+    width: 21%;
+}
+
+.MMC {
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    margin-left: 450px;
+}
+
+.malades {
+    border-radius: 10px;
+    background-color: #00CCB1;
+    height: 300px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.selecter{
+    text-decoration: underline;
+    border: none;
+    background-color: #00CCB1;
+    margin-top: 55px;
+}
+.selecter option{
+    background-color: #FFFFFF;
+    padding: 50px;
+}
+.selecter1{
+    text-decoration: underline;
+    border: none;
+    background-color: #3D83DF;
+    margin-top: 80px;
+}
+.selecter1 option{
+    background-color: #FFFFFF;
+}
+.selecter2{
+    text-decoration: underline;
+    border: none;
+    background-color: #1B2734;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.selecter3{
+    text-decoration: underline;
+    border: none;
+    background-color: #1B2734;
+    margin-top: 40px;
+    color: #FFFFFF;
+}
+
+.medecing {
+    border-radius: 10px;
+    background-color: #3D83DF;
+    height: 300px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.clinic {
+    margin: 10px;
+    padding: 20px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #1B2734;
+}
+
+.entreprise {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 250px;
+}
+.entreprise h1{
+    color: #00B39B;
+    text-align: center;
+}
+
+.lien {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    justify-content: center;
+}
+
+.liens ul li {
+    list-style: none;
+}
+
+.liens ul li a {
+    text-decoration: none;
+    color: lightgray;
+
+}
+
+.liens li a:hover {
+    color: aquamarine;
+}
+
+.plateforme {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #DFF8F6;
+    height: 600px;
+    width: 100%;
+
+}
+
+.grand {
+    display: flex;
+    flex-direction: column;
+    margin-right: 355px;
+    margin-left: 300px;
+    margin-top: 90px;
+    te
+}
+
+.pays {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: 20px;
+    height: 200px;
+    text-align: center;
+}
+
+.Patients {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    align-items: center;
+    padding: 25px;
+    height: 200px;
+    text-align: center;
+}
+
+.calendrier {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: 30px;
+    height: 200px;
+    text-align: center;
+
+}
+
+.docteur {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    align-items: center;
+    padding: 25px;
+    height: 200px;
+}
+
+.cd {
+    margin: 12px 20px 20px;
+}
+
+.pp {
+    margin-top: 63px;
+}
+.plateforme h1{
+    color:#1abc9c ;
+}
+
+.submit{
+    padding: 5px;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(3,313px);
+    grid-template-rows: auto;
+    grid-row-gap: 15px;
+    grid-column-gap: 50px;
+    justify-content: center;
+}
+.ameliorer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.ameliorer h1{
+    text-align: center;
+    color: #00CCB1;
+}
+.ameliorer p{
+    color:#AEACAB ;
+    text-align: center;
+}
+.coéquipiers img{
+    border-radius: 10px 10px 0 0;
+    
+}
+.coéquipiers a{
+    text-decoration: none;
+    color: #747486;
+}
+.pays1{
+    border-radius: 10px;
+     border:1px solid  rgba(0,0,0,.03);
+     background-color: #FFFFFF;
+     display: block;
+}
+.pays2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5px;
+    
+}
+.pays1:hover{
+    box-shadow: 0 5px 8px 0 lightslategray;
+}
+.submit1{
+    background-color: #3D83DF;
+    border-radius: 6px;
+    margin-top: 18px;
+    margin-bottom: 15px;
+    border: 0;
+    padding: 5px;
+    color: #FFFFFF;
+}
+.coéquipiers p{
+    margin-left: 20px;
+}
+.interessant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 60px;
+}
+.interessant h1{
+    color: #333333;
+    text-align: center;
+    
+}
+.interessant a{
+    text-decoration: none;
+    background-color: #3D83DF;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px;
+}
+.interessant a:hover{
+    color: lightblue;
+}
+.lespaysleaders a{
+    color: #3D83DF;
+    text-decoration: none;
+
+}
+.lespaysleaders a:hover{
+    text-decoration: underline #3D83DF;
+}
+/*style footer*/
+footer p{
+    text-align: center;
+    color: #AEACAB;
+}
